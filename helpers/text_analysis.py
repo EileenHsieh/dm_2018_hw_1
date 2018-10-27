@@ -33,7 +33,7 @@ def plot_word_frequency(word_list, plot_title):
         "type": "bar"
     }
 
-    data = go.Data([trace1])
+    data = [trace1]
 
     layout = {
         "title": plot_title,
